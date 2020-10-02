@@ -1,24 +1,8 @@
 body{
     background:url("img/Foto-\ capa.jpg");
     background-size:cover;
-    position: relative;
-    
-       
+    position: relative;   
 }
-
-
-
-.flex-container{
-    display: flex;
-    flex-direction: column;
-   }
-
-   @media (min-width: 768px){
-    .flex.container{
-      flex-direction: row;
-      
-    }
-  
 
 .container{
     justify-content: center;
@@ -33,7 +17,6 @@ body{
     border: 4px solid rgb(252, 252, 252);
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .text p{
@@ -72,9 +55,7 @@ body{
 }
 
 .card p{
-    color: rgb(247, 225, 232);
-
-    
+    color: rgb(247, 225, 232);    
 }
 
 .footer{
