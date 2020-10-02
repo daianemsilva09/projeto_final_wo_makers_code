@@ -1,0 +1,91 @@
+body{
+    background:url("img/Foto-\ capa.jpg");
+    background-size:cover;
+    position: relative;
+    
+       
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   @media (min-width: 768px){
+    .flex.container{
+      flex-direction: row;
+      
+    }
+  
+
+.container{
+    justify-content: center;
+    margin: 10px;  
+}
+  
+.container img{
+    display: block;
+    border-radius: 60%;  
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(252, 252, 252);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.text p{
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    font-family: Trattatello, fantasy;
+    margin: 15px;
+  }
+
+.name{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 128);
+    font-size: 27px;
+    font-family: Trattatello, fantasy;
+    margin: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+ 
+     
+}
+.card{
+    display: flex;
+    align-items: flex-end;
+}
+
+.card img{
+    flex-direction: center;
+    width: 60px;
+    height: 60px; 
+}
+
+.card p{
+    color: rgb(247, 225, 232);
+
+    
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: Trattatello, fantasy;
+    font-size: 12px;
+}
+
+
